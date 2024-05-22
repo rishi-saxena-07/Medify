@@ -1,0 +1,49 @@
+.specialists {
+  width: 80vw;
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--poppins-font-family);
+}
+
+.specialistHeading {
+  color: #1b3c74;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.specialistCards {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.specialistCard {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.specialistImage {
+  width: 350px;
+  height: 394px;
+}
+
+.specialistName {
+  margin-top: 10px;
+  color: #1b3c74;
+  font-size: 24px;
+}
+
+.specialistDesignation {
+  margin-top: 10px;
+  color: #2aa7ff;
+  font-size: 10px;
+  font-weight: 500;
+}

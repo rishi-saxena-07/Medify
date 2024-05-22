@@ -1,0 +1,53 @@
+.navbar {
+  width: 80%;
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLinks {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: 14px;
+  font-family: var(--poppins-font-family);
+  color: #102851;
+  text-decoration: none;
+}
+
+.navbarLinks li {
+  width: 105px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbarLinks li:active,
+.navbarLinks li:visited,
+.navbarLinks li:hover {
+  color: #2aa8ff;
+  font-weight: 600;
+  border-bottom: 2.5px solid #2aa8ff;
+}
+
+.links {
+  text-decoration: none;
+}
+
+#myBookings {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #2aa8ff;
+  cursor: pointer;
+}
